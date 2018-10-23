@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Want Leads</title>
+</head>
+<body>
+    <h1>Quero Leads</h1>
+    <form class="" action="index.html" method="post">
+        <fieldset>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu Nome!">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" placeholder="Digite seu E-mail!">
+            <label for="data">Data de nascimento:</label>
+            <input type="date" name="date">
+            <label for="Telefone">Telefone:</label>
+            <input type="tel" name="Telefone" placeholder="(00)00000-0000">
+            <label for="estado">Estado:</label>
+            <select name="estado">
+                <option disabled>Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="ES">Estrangeiro</option>
+            </select>
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" placeholder="Insira sua cidade!">
+            <label for="cep">CEP:</label>
+            <input type="text" name="cep" placeholder="00000-000">
+            <label for="rua">Rua:</label>
+            <input type="text" name="rua" placeholder="Nome da rua!">  
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro" placeholder="Nome do bairro!">
+            <label for="numero">Número:</label>
+            <input type="number" name="numero" placeholder="Número de sua casa!">
+            <label for="complemento">Complemento:</label>
+            <input type="text" name="complemento" placeholder="Digite seu complemento!">
+            <label for="genero">Genero:</label>
+            <input type="radio" name="genero" value="masculino">Masculino
+            <input type="radio" name="genero" value="feminino">Feminino
+            <input type="radio" name="genero" value="outro">Outro
+            <label for="gostos">Selecione os itens que você mais gosta:</label>
+            <input type="checkbox" name="musica" value="musica">Música
+            <input type="checkbox" name="musica" value="teatro">Teatro
+            <input type="checkbox" name="musica" value="esporte">Esporte
+                <form action="/action_page.php">
+                Satisfação com esse formulário ( 1 a 5):
+                <input type="number" name="quantity" min="1" max="5">
+                <input type="submit">
+              </form>
+           <label for="comentario">Comente o que você achou de nosso formulário!</label>
+            <textarea name="name" id="" cols="80" rows="10"></textarea>
+            <input type="submit" name="enviar" value="Enviar">
+        </form>
+    </body>
+    </html>
